@@ -1,0 +1,5 @@
+﻿  Spanzuratoarea.cpp
+C:\Users\blaga\source\repos\Spanzuratoarea\Spanzuratoarea\Spanzuratoarea.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\blaga\source\repos\Spanzuratoarea\Spanzuratoarea\Spanzuratoarea.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\source\repos\Spanzuratoarea\Spanzuratoarea\Spanzuratoarea.cpp(21,21): warning C4018: '<': signed/unsigned mismatch
+  Spanzuratoarea.vcxproj -> C:\Users\blaga\source\repos\Spanzuratoarea\Debug\Spanzuratoarea.exe

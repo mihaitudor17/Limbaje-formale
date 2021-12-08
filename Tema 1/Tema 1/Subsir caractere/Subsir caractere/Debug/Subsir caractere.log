@@ -1,0 +1,4 @@
+﻿  Subsir caractere.cpp
+C:\Users\blaga\source\repos\Subsir caractere\Subsir caractere\Subsir caractere.cpp(21,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\source\repos\Subsir caractere\Subsir caractere\Subsir caractere.cpp(31,23): warning C4018: '<': signed/unsigned mismatch
+  Subsir caractere.vcxproj -> C:\Users\blaga\source\repos\Subsir caractere\Debug\Subsir caractere.exe

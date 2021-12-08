@@ -1,0 +1,8 @@
+﻿  AFN.cpp
+C:\Users\blaga\source\repos\tema afn\tema afn\TextTable.h(105,27): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\blaga\source\repos\tema afn\tema afn\TextTable.h(108,1): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\blaga\source\repos\tema afn\tema afn\AFN.cpp(17,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\Users\blaga\source\repos\tema afn\tema afn\AFN.cpp(20,14): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  tema afn.cpp
+  Generating Code...
+  tema afn.vcxproj -> C:\Users\blaga\source\repos\tema afn\x64\Debug\tema afn.exe

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "983abdba-2f48-4f35-8ec8-1e15b7f09b9a": {
+      "ProjectGuid": "983abdba-2f48-4f35-8ec8-1e15b7f09b9a",
+      "DisplayName": "tema afn",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

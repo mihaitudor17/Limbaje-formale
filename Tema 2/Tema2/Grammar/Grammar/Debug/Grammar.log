@@ -1,0 +1,11 @@
+﻿  Gramatica.cpp
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(5,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(12,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(21,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(24,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(42,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(59,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(91,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(113,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\blaga\Downloads\Tema2\Grammar\Grammar\Gramatica.cpp(136,20): warning C4018: '<': signed/unsigned mismatch
+  Grammar.vcxproj -> C:\Users\blaga\Downloads\Tema2\Grammar\Debug\Grammar.exe
