@@ -1,0 +1,10 @@
+﻿  AFD.cpp
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(136,12): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(151,26): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(222,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(223,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(231,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\Minimizare AFD\AFD.cpp(321,13): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Minimizare AFD.cpp
+  Generating Code...
+  Minimizare AFD.vcxproj -> C:\BitBucket\Limbaje-formale\Tema 5\Minimizare AFD\x64\Debug\Minimizare AFD.exe
