@@ -1,0 +1,5 @@
+﻿  Tema 6.cpp
+C:\BitBucket\Limbaje-formale\Tema 6\Tema 6\Tema 6.cpp(32,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 6\Tema 6\Tema 6.cpp(89,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\BitBucket\Limbaje-formale\Tema 6\Tema 6\Tema 6.cpp(133,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Tema 6.vcxproj -> C:\BitBucket\Limbaje-formale\Tema 6\x64\Debug\Tema 6.exe
