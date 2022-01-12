@@ -6,7 +6,7 @@
         <PerGrammarGenerationSettings>
           <option name="fileName" value="$PROJECT_DIR$/g.g4" />
           <option name="autoGen" value="true" />
-          <option name="outputDir" value="" />
+          <option name="outputDir" value="C:\GitHub\Limbaje-formale\Tema 7\out" />
           <option name="libDir" value="" />
           <option name="encoding" value="" />
           <option name="pkg" value="" />

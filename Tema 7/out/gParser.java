@@ -516,13 +516,13 @@ public class gParser extends Parser {
 	}
 
 	public static class DeclarationContext extends ParserRuleContext {
+		public TerminalNode Semicolon() { return getToken(gParser.Semicolon, 0); }
 		public List<TerminalNode> Identifier() { return getTokens(gParser.Identifier); }
 		public TerminalNode Identifier(int i) {
 			return getToken(gParser.Identifier, i);
 		}
 		public TerminalNode AssignmentOperator() { return getToken(gParser.AssignmentOperator, 0); }
 		public TerminalNode Number() { return getToken(gParser.Number, 0); }
-		public TerminalNode Semicolon() { return getToken(gParser.Semicolon, 0); }
 		public DeclarationContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -547,11 +547,12 @@ public class gParser extends Parser {
 		enterRule(_localctx, 4, RULE_declaration);
 		int _la;
 		try {
-			setState(111);
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(109);
 			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,15,_ctx) ) {
 			case 1:
-				enterOuterAlt(_localctx, 1);
 				{
 				{
 				setState(97);
@@ -562,7 +563,6 @@ public class gParser extends Parser {
 				}
 				break;
 			case 2:
-				enterOuterAlt(_localctx, 2);
 				{
 				{
 				setState(99);
@@ -585,7 +585,6 @@ public class gParser extends Parser {
 				}
 				break;
 			case 3:
-				enterOuterAlt(_localctx, 3);
 				{
 				{
 				setState(103);
@@ -601,10 +600,11 @@ public class gParser extends Parser {
 				setState(108);
 				match(T__0);
 				}
-				setState(110);
-				match(Semicolon);
 				}
 				break;
+			}
+			setState(111);
+			match(Semicolon);
 			}
 		}
 		catch (RecognitionException re) {
@@ -982,11 +982,11 @@ public class gParser extends Parser {
 		"\n\2\3\2\3\2\3\2\3\2\7\29\n\2\f\2\16\2<\13\2\3\2\5\2?\n\2\5\2A\n\2\3\3"+
 		"\3\3\3\3\3\3\3\3\3\3\3\3\5\3J\n\3\3\3\3\3\3\3\3\3\7\3P\n\3\f\3\16\3S\13"+
 		"\3\3\3\3\3\3\3\3\3\3\3\7\3Z\n\3\f\3\16\3]\13\3\3\3\5\3`\n\3\5\3b\n\3\3"+
-		"\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\5\4r\n\4\3\5\3"+
+		"\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\3\4\5\4p\n\4\3\4\3\4\3\5\3"+
 		"\5\3\5\3\5\3\5\3\5\3\5\5\5{\n\5\3\6\3\6\3\6\3\6\3\6\5\6\u0082\n\6\3\6"+
 		"\5\6\u0085\n\6\3\7\3\7\3\7\3\7\5\7\u008b\n\7\3\b\3\b\3\b\3\b\6\b\u0091"+
 		"\n\b\r\b\16\b\u0092\3\b\2\2\t\2\4\6\b\n\f\16\2\3\4\2\4\4\n\n\2\u00ab\2"+
-		"@\3\2\2\2\4B\3\2\2\2\6q\3\2\2\2\bs\3\2\2\2\n|\3\2\2\2\f\u008a\3\2\2\2"+
+		"@\3\2\2\2\4B\3\2\2\2\6o\3\2\2\2\bs\3\2\2\2\n|\3\2\2\2\f\u008a\3\2\2\2"+
 		"\16\u0090\3\2\2\2\20\21\7\7\2\2\21\26\7\r\2\2\22\24\5\6\4\2\23\22\3\2"+
 		"\2\2\23\24\3\2\2\2\24\27\3\2\2\2\25\27\7\23\2\2\26\23\3\2\2\2\26\25\3"+
 		"\2\2\2\27\31\3\2\2\2\30\32\5\b\5\2\31\30\3\2\2\2\31\32\3\2\2\2\32\33\3"+
@@ -1003,10 +1003,10 @@ public class gParser extends Parser {
 		"\17\2\2NP\5\f\7\2ON\3\2\2\2PS\3\2\2\2QO\3\2\2\2QR\3\2\2\2R_\3\2\2\2SQ"+
 		"\3\2\2\2T`\7\20\2\2UV\7\20\2\2VW\7\6\2\2W[\7\17\2\2XZ\5\f\7\2YX\3\2\2"+
 		"\2Z]\3\2\2\2[Y\3\2\2\2[\\\3\2\2\2\\^\3\2\2\2][\3\2\2\2^`\7\20\2\2_T\3"+
-		"\2\2\2_U\3\2\2\2`b\3\2\2\2aL\3\2\2\2aM\3\2\2\2b\5\3\2\2\2cd\7\n\2\2dr"+
-		"\7\n\2\2ef\7\n\2\2fg\7\n\2\2gh\7\22\2\2hr\t\2\2\2ij\7\n\2\2jk\7\n\2\2"+
-		"kl\7\22\2\2lm\7\3\2\2mn\7\n\2\2no\7\3\2\2op\3\2\2\2pr\7\23\2\2qc\3\2\2"+
-		"\2qe\3\2\2\2qi\3\2\2\2r\7\3\2\2\2st\7\n\2\2tz\7\f\2\2u{\7\n\2\2vw\7\n"+
+		"\2\2\2_U\3\2\2\2`b\3\2\2\2aL\3\2\2\2aM\3\2\2\2b\5\3\2\2\2cd\7\n\2\2dp"+
+		"\7\n\2\2ef\7\n\2\2fg\7\n\2\2gh\7\22\2\2hp\t\2\2\2ij\7\n\2\2jk\7\n\2\2"+
+		"kl\7\22\2\2lm\7\3\2\2mn\7\n\2\2np\7\3\2\2oc\3\2\2\2oe\3\2\2\2oi\3\2\2"+
+		"\2pq\3\2\2\2qr\7\23\2\2r\7\3\2\2\2st\7\n\2\2tz\7\f\2\2u{\7\n\2\2vw\7\n"+
 		"\2\2wx\7\13\2\2x{\7\n\2\2y{\7\4\2\2zu\3\2\2\2zv\3\2\2\2zy\3\2\2\2{\t\3"+
 		"\2\2\2|}\7\n\2\2}~\7\22\2\2~\u0081\t\2\2\2\177\u0080\7\13\2\2\u0080\u0082"+
 		"\t\2\2\2\u0081\177\3\2\2\2\u0081\u0082\3\2\2\2\u0082\u0084\3\2\2\2\u0083"+
@@ -1017,7 +1017,7 @@ public class gParser extends Parser {
 		"\u008e\u0091\5\n\6\2\u008f\u0091\5\6\4\2\u0090\u008c\3\2\2\2\u0090\u008d"+
 		"\3\2\2\2\u0090\u008e\3\2\2\2\u0090\u008f\3\2\2\2\u0091\u0092\3\2\2\2\u0092"+
 		"\u0090\3\2\2\2\u0092\u0093\3\2\2\2\u0093\17\3\2\2\2\30\23\26\31\35$)\62"+
-		":>@IQ[_aqz\u0081\u0084\u008a\u0090\u0092";
+		":>@IQ[_aoz\u0081\u0084\u008a\u0090\u0092";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {
